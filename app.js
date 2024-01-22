@@ -1,4 +1,5 @@
-let numeroSecreto = 6;
+let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+console.log(numeroSecreto);
 let numeroUsuario;
 let intentos = 1;
 let maximosIntentos = 3;
